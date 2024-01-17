@@ -21,9 +21,9 @@ Tous les chemins sont absolus, utiliser des chemins relatifs me provoquait quelq
 
 1 / Télécharger le fichier transactions.npz sur kaggle (voir data) <br><br>
 2 / Convertir le fichier en .npz en .csv avec le script npz_to_csv.py (dossier /ressources) <br><br>
-3 / Préparer les données pour les modèles avec data_process.py <br><br>
-4 / (Optionnel) Tester les modèles avec model_testing.py <br><br>
-5 / Entraîner et exporter les modèles avec model_training.py <br><br>
+3 / Préparer les données pour les modèles avec utilities/data_process.py <br><br>
+4 / (Optionnel) Tester les modèles avec utilities/model_testing.py <br><br>
+5 / Entraîner et exporter les modèles avec utilities/model_training.py <br><br>
 6 / Après avoir modifié les chemins des .pkl dans main.py, lancer le serveur local avec la commande suivante :
 ```bash
 uvicorn main:app --reload
