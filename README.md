@@ -20,7 +20,7 @@ Tous les chemins sont absolus, utiliser des chemins relatifs me provoquait quelq
 ### Procédure
 
 1 / Télécharger le fichier transactions.npz sur kaggle (voir data) <br><br>
-2 / Convertir le fichier en .npz en .csv avec le script npz_to_csv.py (dossier /ressources) <br><br>
+2 / Convertir le fichier en .npz en .csv avec le script utilities/npz_to_csv.py <br><br>
 3 / Préparer les données pour les modèles avec utilities/data_process.py <br><br>
 4 / (Optionnel) Tester les modèles avec utilities/model_testing.py <br><br>
 5 / Entraîner et exporter les modèles avec utilities/model_training.py <br><br>
