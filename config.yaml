@@ -1,4 +1,0 @@
-# Configuration de l'API
-
-database:
-  url: ressources/immo_fr.db
